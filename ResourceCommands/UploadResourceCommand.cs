@@ -9,7 +9,7 @@ namespace Commands.ResourceCommands
     public class UploadResourceCommand
     {
         public ResourceDto Resource {get; set;}
-        public List<IFormFile> ResourceFiles { get; set; } 
+        public List<ResourceFileDto> ResourceFiles { get; set; } 
         
         
     }
